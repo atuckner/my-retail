@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 import styled from 'styled-components';
 
 const Star = styled(FontAwesomeIcon)`
@@ -24,8 +25,8 @@ export default ({ rating }) => {
     for (let i = 1; i <= totalStars; i++) {
       const star = (
         i < rating + 1 ?
-          <Star key={i} icon='star'></Star> :
-          <EmptyStar key={i} icon='star'></EmptyStar>
+          <Star key={i} icon={faStar}></Star> :
+          <EmptyStar key={i} icon={faStar}></EmptyStar>
       );
 
       stars.push(star);
