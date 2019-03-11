@@ -6,7 +6,7 @@ exports[`render StarRating with 1 star 1`] = `
 }
 
 .c2 {
-  color: gray;
+  color: #a1a1a1;
 }
 
 .c0 {
@@ -111,7 +111,7 @@ exports[`render StarRating with 2 stars 1`] = `
 }
 
 .c2 {
-  color: gray;
+  color: #a1a1a1;
 }
 
 .c0 {
@@ -216,7 +216,7 @@ exports[`render StarRating with 3 stars 1`] = `
 }
 
 .c2 {
-  color: gray;
+  color: #a1a1a1;
 }
 
 .c0 {
@@ -321,7 +321,7 @@ exports[`render StarRating with 4 stars 1`] = `
 }
 
 .c2 {
-  color: gray;
+  color: #a1a1a1;
 }
 
 .c0 {
