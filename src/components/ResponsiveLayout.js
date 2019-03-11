@@ -22,6 +22,10 @@ const Column = styled.div`
   width: 100%
 `;
 
+const MarginColumn = styled.div`
+  width: 50%
+`;
+
 const LargeButton = styled.button`
   display: inline-block;
   font-family: arial;
@@ -160,6 +164,7 @@ export default class ResponsiveLayout extends PureComponent {
 
     return (
       <Container>
+        <MarginColumn/>
         <Column>
           <FloatRight>
             <TitleWrapper>
@@ -216,6 +221,7 @@ export default class ResponsiveLayout extends PureComponent {
             <ProductHighlightsListItem>Care and Cleaning: Easy-To-Clean, Dishwasher Safe Parts</ProductHighlightsListItem>
           </ProductHighlightsList>
         </Column>
+        <MarginColumn/>
       </Container>
     );
   }
