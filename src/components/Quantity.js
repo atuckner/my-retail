@@ -78,10 +78,6 @@ const Minus = styled.div`
   }
 `;
 
-const Counter = styled.p`
-  margin: 10px;
-`;
-
 export default class Quantity extends PureComponent {
   state = {
     quantity: 1

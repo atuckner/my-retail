@@ -27,6 +27,7 @@ const ArrowIcon = styled(FontAwesomeIcon)`
   margin-right: 10px;
   margin-left: 10px;
   font-size: 1.7rem;
+  cursor: pointer;
 `;
 
 const SliderContainer = styled.div`
