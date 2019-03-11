@@ -6,6 +6,7 @@ import itemData from '../utils/itemData';
 import ImageSlider from './ImageSlider';
 import Quantity from './Quantity';
 import Reviews from './Reviews';
+import Colors from '../constants/Colors';
 
 const Container = styled.div`
   display: flex;
@@ -30,7 +31,7 @@ const LargeButton = styled.button`
   margin-right: 8px;
   text-decoration: none;
   font-weight: 500;
-  background: ${({ color }) => color ? color : '#cc0000'};
+  background: ${({ color }) => color ? color : Colors.red};
   color: white;
   font-family: sans-serif;
   font-size: 0.8rem;
@@ -51,7 +52,7 @@ const SmallButton = styled.button`
   margin-right: 5px;
   text-decoration: none;
   font-weight: 600;
-  background: #f7f7f7;
+  background: ${Colors.lightGray};
   color: darkgray;
   font-family: sans-serif;
   font-size: 0.6rem;
@@ -103,12 +104,12 @@ const PromotionWrapper = styled.div`
 `;
 
 const TagIcon = styled(FontAwesomeIcon)`
-  color: #cc0000;
+  color: ${Colors.red};
   margin-right: 10px;
 `;
 
 const PromotionText = styled.h2`
-  color: #cc0000;
+  color: ${Colors.red};
   font-size: 0.8rem;
   font-weight: 400;
 `;

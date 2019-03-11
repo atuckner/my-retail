@@ -1,14 +1,11 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components';
 
 import StarRating from './StarRating';
-
-const ReviewsWrapper = styled.div`
-`;
+import Colors from '../constants/Colors';
 
 const ReviewsContainer = styled.div`
-  background: #f7f7f7;
+  background: ${Colors.lightGray};
   border-radius: 2px;
   padding: 10px;
   display: flex;
@@ -54,7 +51,7 @@ const OverallRating = styled.div`
 
 export default () => {
   return (
-    <ReviewsWrapper>
+    <>
       <OverallRatingHeader>
         <OverallRating>
           <StarRating rating={5}/>
@@ -78,6 +75,6 @@ export default () => {
           <Description>Less than 2 months ago after purchase it completely stopped working. First it wouldn't detect the pitcher when trying to blend a significant amount, a couple weeks later it wouldn't detect the single serve cup.</Description>
         </Section>
       </ReviewsContainer>
-    </ReviewsWrapper>
+    </>
   );
 }

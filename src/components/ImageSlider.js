@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import Colors from '../constants/Colors';
+
 const Container = styled.div`
   display:flex;
   flex-direction: column;
@@ -16,7 +18,7 @@ const MainImage = styled.img`
 
 const SmallImage = styled.img`
   height: 4rem;
-  border: ${props => props.border ? '1px solid gray' : 'none'};
+  border: ${props => props.border ? `1px solid ${Colors.gray}` : 'none'};
   border-radius: 3px;
   padding: 5px;
 `;
@@ -27,6 +29,7 @@ const ArrowIcon = styled(FontAwesomeIcon)`
   margin-left: 10px;
   font-size: 1.7rem;
   cursor: pointer;
+  color: ${Colors.gray}
 `;
 
 const SliderContainer = styled.div`

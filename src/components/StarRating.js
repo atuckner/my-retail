@@ -3,12 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import styled from 'styled-components';
 
+import Colors from '../constants/Colors';
+
 const Star = styled(FontAwesomeIcon)`
-  color: #cc0000;
+  color: ${Colors.red};
 `;
 
 const EmptyStar = styled(FontAwesomeIcon)`
-  color: gray;
+  color: ${Colors.gray};
 `;
 
 const StarContainer = styled.div`
