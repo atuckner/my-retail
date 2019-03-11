@@ -11,7 +11,6 @@ const ReviewsContainer = styled.div`
   background: #f7f7f7;
   border-radius: 2px;
   padding: 10px;
-  width: 440px;
   display: flex;
 `;
 
@@ -46,7 +45,6 @@ const Section = styled.div`
 const OverallRatingHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 440px;
 `;
 
 const OverallRating = styled.div`

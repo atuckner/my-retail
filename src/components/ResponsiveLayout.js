@@ -10,6 +10,7 @@ import Reviews from './Reviews';
 const Container = styled.div`
   display: flex;
   flex-direction: row;
+  margin: 10px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -18,7 +19,6 @@ const Container = styled.div`
 
 const Column = styled.div`
   width: 100%
-  margin-right: 20px;
 `;
 
 const LargeButton = styled.button`
@@ -72,7 +72,6 @@ const FloatRight = styled.div`
 `;
 
 const TitleWrapper = styled.div`
-  width: 360px;
   text-align: center;
 `;
 
